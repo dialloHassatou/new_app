@@ -19,4 +19,13 @@ describe "Users" do
       before { @user.name = "a" * 51 }
       it { should_not be_valid }
   end
+  
+  describe "when email format is invalid" do
+      it "should be
+      before { @user.name = "a" * 51 }
+      it { should_not be_valid }
+  end
+
+
+
 end
