@@ -31,7 +31,7 @@ end
 gem 'jquery-rails'
 
 group :test do
-   gem 'capybara', '1.1.2'
+   gem 'capybara', '2.2.1'
 end
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -55,13 +55,14 @@ end
 # gem 'capistrano', group: :development
 
 # Use debugger
-# gem 'debugger', group: [:development, :test]
+ gem 'debugger', group: [:development, :test]
 
 gem 'bcrypt-ruby', '3.1.2'
 
 gem 'factory_girl_rails', '4.1.0'
 
-gem 'bootstrap-sass', '2.0.4'
+gem 'bootstrap-sass', '2.3.2.0'
+
 
 
 

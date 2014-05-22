@@ -1,7 +1,5 @@
-
-	
-
-	/* universal */
+@import "bootstrap";
+/* universal */
 
 	html {
 	  overflow-y: scroll;
@@ -125,4 +123,34 @@ footer small {
 	  float: left;
 	  margin-left: 10px;
 	}
+
+ $grayMediumLigght: #eaeaea;
+ @mixin box_sizing{
+	-moz-box-sizing: border-box;
+        -webkit-box-sizing:  border-box;
+         border-box: border-box;
+}
+
+/*miscellanneous*/
+	.debug_dump {
+	    clear: both;
+	    float: left;
+	    width: 100%;
+	    margin-top: 45px;
+            @include box_sizing;
+}
+
+
+
+
+/* forms */
+
+ input, textarea, select, .uneditable-input {
+	border: 1px solid #bbb;
+	width: 100%;
+	padding: 10px;
+	height: auto !important;
+	margin-bottom: 15px;
+        @include box_sizing;
+}
 
