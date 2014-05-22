@@ -59,6 +59,10 @@ end
 
 gem 'bcrypt-ruby', '3.1.2'
 
+gem 'factory_girl_rails', '4.1.0'
+
+gem 'bootstrap-sass', '2.0.4'
+
 
 
 
